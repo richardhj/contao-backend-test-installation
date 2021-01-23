@@ -1,0 +1,12 @@
+contao:
+  localconfig:
+    licenseAccepted: true
+    disableCron: true
+    installPassword: '%env(INSTALL_PASSWORD)%'
+    adminEmail: '%env(ADMIN_EMAIL)%'
+    dateFormat: "d.m.Y"
+    datimFormat: "d.m.Y H:i"
+    timeZone: 'Europe/Berlin'
+
+imports:
+  - { resource: services.yml }

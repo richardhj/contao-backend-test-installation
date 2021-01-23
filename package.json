@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "node_modules/.bin/encore dev --watch",
+        "prod": "env NODE_ENV=production node_modules/.bin/encore production"
+    },
+    "devDependencies": {
+        "@symfony/webpack-encore": "^0.31",
+        "postcss-loader": "^4.0.0"
+    },
+    "dependencies": {
+    }
+}

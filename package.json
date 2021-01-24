@@ -1,13 +1,18 @@
 {
     "private": true,
     "scripts": {
-        "dev": "node_modules/.bin/encore dev --watch",
+        "dev": "node_modules/.bin/encore dev",
+        "watch": "node_modules/.bin/encore dev --watch",
         "prod": "env NODE_ENV=production node_modules/.bin/encore production"
     },
     "devDependencies": {
+        "@contao/core-bundle": "file:vendor/contao/contao/core-bundle/assets",
         "@symfony/webpack-encore": "^0.31",
         "postcss-loader": "^4.0.0"
     },
     "dependencies": {
+        "autoprefixer": "^10.2.3",
+        "postcss": "^8.2.4",
+        "tailwindcss": "^2.0.2"
     }
 }

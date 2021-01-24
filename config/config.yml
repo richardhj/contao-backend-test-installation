@@ -8,5 +8,11 @@ contao:
     datimFormat: "d.m.Y H:i"
     timeZone: 'Europe/Berlin'
 
+framework:
+  assets:
+    packages:
+      contao_backend:
+        json_manifest_path: '%kernel.project_dir%/web/layout/backend/manifest.json'
+
 imports:
   - { resource: services.yml }

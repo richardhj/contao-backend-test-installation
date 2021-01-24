@@ -5,21 +5,25 @@ const configs = [];
 
 Encore
     .setOutputPath('web/layout/backend')
-    .setPublicPath('./')
-    .setManifestKeyPrefix('bundles/contaocore')
+    .setPublicPath('/layout/backend')
+    .setManifestKeyPrefix('')
 
     .cleanupOutputBeforeBuild()
     .enableSourceMaps(!Encore.isProduction())
     .enableVersioning(Encore.isProduction())
     .disableSingleRuntimeChunk()
 
-    .addEntry()
-    .addStyleEntry()
-    .enablePostCssLoader()
+    .addEntry('js/app', './vendor/contao/contao/core-bundle/assets/js/app.js')
+    .addStyleEntry('styles/app', './vendor/contao/contao/core-bundle/assets/styles/app.css')
+    .copyFiles({
+        from: './vendor/contao/contao/core-bundle/assets/images/',
+        to: 'images/[path][name].[ext]',
+    })
+    .enablePostCssLoader((options) => {})
 ;
 
 config = Encore.getWebpackConfig();
-config.name = 'contao_core';
+config.name = 'contao_backend';
 
 configs.push(config);
 

@@ -4,5 +4,8 @@
     "psr-4": {
       "Acme\\ContaoCustomThemeBundle\\": "src"
     }
+  },
+  "extra": {
+    "contao-manager-plugin": "Acme\\ContaoCustomThemeBundle\\ContaoManager\\Plugin"
   }
 }

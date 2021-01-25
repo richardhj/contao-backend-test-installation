@@ -8,7 +8,28 @@ Working branch: https://github.com/contao/contao/compare/4.x...richardhj:tng-bac
 Kickstart this project
 ----------------------
 
-Run `composer install`, configure database connection, run install tool, run `symfony serve`.
+```
+git checkout git@github.com:richardhj/contao-backend-test-installation.git && cd contao-backend-test-installation
+composer install
+echo "DATABASE_URL=mysql://user:password@localhost:3306/contao_test" >> .env.local
+php vendor/bin/contao-console contao:migrate
+symfony serve
+```
+
+Server-mode and local-mode
+--------------------------
+
+The new backend can be used as-is ("server mode") or entirely customized ("local mode").
+
+In the server-mode, Contao will include the distribution files (of all bundles). Each bundle, including the core-bundle,
+therefore has to provide the distribution files.
+
+In the local-mode, the developer wants to build the theme on their own. Therefore, it is possible to create a local
+Webpack/Encore config and include all source files. For this to work, we make use of "Symfony UX" that makes all
+packages available in the local package.json.
+
+How third-party bundles can add their styles
+--------------------------------------------
 
 How to add the backend theme to your Encore config
 --------------------------------------------------
@@ -43,12 +64,30 @@ Encore
     .enablePostCssLoader((options) => {})
 ;
 
-config = Encore.getWebpackConfig();
-config.name = 'contao_backend';
+backendConfig = Encore.getWebpackConfig();
+backendConfig.name = 'contao_backend';
 
-configs.push(config);
+module.exports = [backendConfig];
+```
 
-module.exports = configs;
+If you want more flexibility with the Tailwind config, you can create your own `tailwind.config.js`
+and just import Contao's tailwind preset in there:
+
+```js
+const { tailwindPreset: contaoPreset } = require('@contao/backend');
+
+module.exports = {
+    presets: [
+        contaoPreset
+    ],
+    theme: {
+        extend: {
+            colors: {
+                brand: '#ff0000'
+            },
+        },
+    },
+};
 ```
 
 How to change the color palette
@@ -103,7 +142,7 @@ module.exports = {
 
 The `var()` syntax is optional if you don't want to use CSS variables.
 
-Consequently, the 500 shade is used as *true* color.
+Consistently, the 500 shade is used as *true* color.
 
 How to override any part of the theme
 -------------------------------------

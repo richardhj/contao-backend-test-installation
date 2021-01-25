@@ -6,8 +6,8 @@
         "prod": "env NODE_ENV=production node_modules/.bin/encore production"
     },
     "devDependencies": {
-        "@contao/core-bundle": "file:vendor/contao/contao/core-bundle/assets",
-        "@symfony/webpack-encore": "^0.31",
+        "@contao/backend": "file:vendor/contao/contao/core-bundle/assets",
+        "@symfony/webpack-encore": "^0.33.0",
         "postcss-loader": "^4.0.0"
     },
     "dependencies": {

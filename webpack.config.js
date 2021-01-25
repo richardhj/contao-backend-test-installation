@@ -1,8 +1,5 @@
 const Encore = require('@symfony/webpack-encore');
 
-let config;
-const configs = [];
-
 Encore
     .setOutputPath('web/layout/backend')
     .setPublicPath('/layout/backend')
@@ -22,9 +19,7 @@ Encore
     .enablePostCssLoader((options) => {})
 ;
 
-config = Encore.getWebpackConfig();
-config.name = 'contao_backend';
+backendConfig = Encore.getWebpackConfig();
+backendConfig.name = 'contao_backend';
 
-configs.push(config);
-
-module.exports = configs;
+module.exports = [backendConfig];

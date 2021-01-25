@@ -4,7 +4,8 @@
   "description": "Contao test installation",
   "require": {
     "php": "^7.4",
-    "contao/contao": "dev-tng-backend as 4.12.0"
+    "contao/contao": "dev-tng-backend as 4.12.0",
+    "acme/contao-custom-theme-bundle": "*@dev"
   },
   "autoload": {
     "psr-4": {
@@ -15,6 +16,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/richardhj/contao"
+    },
+    {
+      "type": "path",
+      "url": "_external/contao-custom-theme-bundle"
     }
   ],
   "extra": {

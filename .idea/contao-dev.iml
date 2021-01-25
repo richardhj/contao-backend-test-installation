@@ -153,6 +153,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/lcobucci/clock" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/event-dispatcher" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/contao/contao/core-bundle/assets/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/acme/contao-custom-theme-bundle" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

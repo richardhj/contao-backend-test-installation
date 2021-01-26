@@ -5,6 +5,15 @@
       "Acme\\ContaoCustomThemeBundle\\": "src"
     }
   },
+  "require": {
+    "contao/contao": "dev-tng-backend as 4.12.0"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/richardhj/contao"
+    }
+  ],
   "extra": {
     "contao-manager-plugin": "Acme\\ContaoCustomThemeBundle\\ContaoManager\\Plugin"
   }

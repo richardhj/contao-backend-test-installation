@@ -52,7 +52,6 @@
       <path value="$PROJECT_DIR$/vendor/contao/maintenance-bundle-deprecated" />
       <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/vendor/contao/manager-plugin" />
       <path value="$PROJECT_DIR$/vendor/contao/contao" />
       <path value="$PROJECT_DIR$/vendor/contao/image" />
       <path value="$PROJECT_DIR$/vendor/contao/imagine-svg" />
@@ -149,8 +148,10 @@
       <path value="$PROJECT_DIR$/vendor/scheb/2fa-backup-code" />
       <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
-      <path value="$PROJECT_DIR$/vendor/acme/contao-custom-theme-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/contao/manager-plugin" />
+      <path value="$PROJECT_DIR$/vendor/acme/contao-custom-css-bundle" />
+      <path value="$PROJECT_DIR$/vendor/acme/contao-custom-theme-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />

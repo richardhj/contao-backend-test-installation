@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/_external/contao-custom-theme-bundle/src" isTestSource="false" packagePrefix="Acme\ContaoCustomThemeBundle" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/contao/contao/core-bundle/src" isTestSource="false" packagePrefix="Contao\CoreBundle" />
       <excludeFolder url="file://$MODULE_DIR$/var" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ausi/slug-generator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bacon/bacon-qr-code" />
@@ -15,7 +17,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/contao/image" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/contao/imagine-svg" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/contao/maintenance-bundle-deprecated" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/contao/manager-plugin" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dasprid/enum" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/cache" />
@@ -153,8 +154,13 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/lcobucci/clock" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/event-dispatcher" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/contao/contao/core-bundle/assets/node_modules" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/acme/contao-custom-theme-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/contao/manager-plugin" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/contao/contao/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/acme/contao-custom-css-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/acme/contao-custom-theme-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/_external/contao-custom-theme-bundle/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/contao/contao/core-bundle/src/Resources/public/theme" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

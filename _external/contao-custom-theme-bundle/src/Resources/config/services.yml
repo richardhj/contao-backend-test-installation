@@ -1,0 +1,4 @@
+services:
+  Acme\ContaoCustomThemeBundle\ContaoBackendTheme\BackendTheme:
+    tags:
+      - { name: 'contao.backend_theme', alias: 'acmecontaocustomtheme' }

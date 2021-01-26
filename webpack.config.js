@@ -10,8 +10,7 @@ Encore
     .enableVersioning(Encore.isProduction())
     .disableSingleRuntimeChunk()
 
-    .addEntry('js/app', './vendor/contao/contao/core-bundle/assets/js/app.js')
-    .addStyleEntry('styles/app', './vendor/contao/contao/core-bundle/assets/styles/app.css')
+    .addEntry('app', './vendor/contao/contao/core-bundle/assets/js/app.js')
     .copyFiles({
         from: './vendor/contao/contao/core-bundle/assets/images/',
         to: 'images/[path][name].[ext]',

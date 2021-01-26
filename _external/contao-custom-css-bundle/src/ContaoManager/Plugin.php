@@ -1,8 +1,8 @@
 <?php
 
-namespace Acme\ContaoCustomThemeBundle\ContaoManager;
+namespace Acme\ContaoCustomCssBundle\ContaoManager;
 
-use Acme\ContaoCustomThemeBundle\AcmeContaoCustomThemeBundle;
+use Acme\ContaoCustomCssBundle\AcmeContaoCustomCssBundle;
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
@@ -13,7 +13,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser): array
     {
         return [
-            BundleConfig::create(AcmeContaoCustomThemeBundle::class)
+            BundleConfig::create(AcmeContaoCustomCssBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class])
         ];
     }

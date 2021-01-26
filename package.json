@@ -3,7 +3,7 @@
     "scripts": {
         "dev": "node_modules/.bin/encore dev",
         "watch": "node_modules/.bin/encore dev --watch",
-        "prod": "env NODE_ENV=production node_modules/.bin/encore production"
+        "build": "env NODE_ENV=production node_modules/.bin/encore production"
     },
     "devDependencies": {
         "@contao/backend": "file:vendor/contao/contao/core-bundle/assets",

@@ -1,10 +1,12 @@
 module.exports = {
     presets: [
+        // Loads the Contao preset that comes with default configuration, e.g. purge config and default colors.
         require('@contao/backend/tailwind-preset')
     ],
     theme: {
         extend: {
             colors: {
+                // Override the Contao default color
                 primary: {
                     50: 'var(--color-brand-50, #FFFFFF)',
                     100: 'var(--color-brand-100, #FEF6FA)',

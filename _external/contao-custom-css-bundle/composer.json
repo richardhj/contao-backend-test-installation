@@ -1,0 +1,11 @@
+{
+  "name": "acme/contao-custom-css-bundle",
+  "autoload": {
+    "psr-4": {
+      "Acme\\ContaoCustomCssBundle\\": "src"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "Acme\\ContaoCustomCssBundle\\ContaoManager\\Plugin"
+  }
+}

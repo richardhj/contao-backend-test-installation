@@ -5,8 +5,11 @@
   "require": {
     "php": "^7.4",
     "contao/contao": "dev-tng-backend as 4.12.0",
+
     "acme/contao-custom-theme-bundle": "*@dev",
-    "acme/contao-custom-css-bundle": "*@dev"
+    "acme/contao-custom-css-bundle": "*@dev",
+
+    "symfony/webpack-encore-bundle": "dev-patch-1 as 1.9.1"
   },
   "autoload": {
     "psr-4": {
@@ -17,6 +20,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/richardhj/contao"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/richardhj/webpack-encore-bundle"
     },
     {
       "type": "path",

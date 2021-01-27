@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
     presets: [
         // Loads the Contao preset that comes with default configuration, e.g. purge config and default colors.
@@ -19,6 +21,9 @@ module.exports = {
                     800: 'var(--color-brand-800, #A51359)',
                     900: 'var(--color-brand-900, #770E41)',
                 },
+            },
+            fontFamily: {
+                'sans': ['Roboto', ...defaultTheme.fontFamily.sans]
             }
         },
     },

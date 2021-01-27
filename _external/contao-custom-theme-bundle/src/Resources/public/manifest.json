@@ -1,4 +1,20 @@
 {
   "bundles/acmecontaocustomtheme/app.css": "/bundles/acmecontaocustomtheme/app.css",
-  "bundles/acmecontaocustomtheme/app.js": "/bundles/acmecontaocustomtheme/app.js"
+  "bundles/acmecontaocustomtheme/app.js": "/bundles/acmecontaocustomtheme/app.js",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-100.woff": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-100.a45108d3.woff",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-100.woff2": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-100.c2aa4ab1.woff2",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-300.woff2": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-300.37a7069d.woff2",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-300.woff": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-300.865f928c.woff",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-300italic.woff": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-300italic.bd5b7a13.woff",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-300italic.woff2": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-300italic.c64e7e35.woff2",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-500.woff": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-500.cea99d3e.woff",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-500.woff2": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-500.f5b74d7f.woff2",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-700.woff": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-700.2267169e.woff",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-700.woff2": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-700.c18ee39f.woff2",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-900.woff2": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-900.870c8c14.woff2",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-900.woff": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-900.bac8362e.woff",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-italic.woff": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-italic.b1d9d990.woff",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-italic.woff2": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-italic.d022bc70.woff2",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-regular.woff2": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-regular.176f8f5b.woff2",
+  "bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-regular.woff": "/bundles/acmecontaocustomtheme/fonts/roboto-v20-latin-regular.49ae34d4.woff"
 }
